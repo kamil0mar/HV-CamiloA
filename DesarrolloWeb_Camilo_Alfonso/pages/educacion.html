@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="HV" content="Hoja de vida Camilo Antonio Alfonso Martinez">
+	<meta name="author" content="Camilo Antonio Alfonso Martinez">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0" >
+	<title>Estudios Realizados</title>
+</head>
+<body>
+	<header>
+		<svg>
+			<image xlink:href="../img/LogoIniciales.svg" width="300px" height="200px">no hay Logo</image>
+		</svg>
+		<h1>Hoja de Vida</h1>
+	</header>
+	<nav>
+		<a href="../index.html">Inicio</a>
+		<a href="./educacion.html">Educacion</a>
+		<a href="./experiencia.html">Experiencia</a>
+	</nav>
+	<article>
+		<h2>Nombres : </h2><h3>Camilo Antonio</h3>
+		<h2>Apellidos :</h2><h3>Alfonso Martinez</h3>
+		<h2>Lugar de Nacimiento : </h2><h3>Tabio, Cundinamarca</h3> 
+		<h2>Fecha de Nacimiento : </h2><h3>23 de Octubre de 1985</h3>
+		<h2>Educación</h2>
+		<table border="1px">
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+			<tr>
+				<td>1985</td>
+				<td>San Isiadro</td>
+				<td>Tabio (Cundinamarca)</td>
+				<td>5°</td>
+			</tr>
+			<tr>
+				<td>201</td>
+				<td>Jose de San Martín</td>
+				<td>Tabio (Cundinamarca)</td>
+				<td>11°</td>
+			</tr>
+			<tr>
+				<td>2018</td>
+				<td>Corporacion Univercitaria Minuto de Dios</td>
+				<td>Bogotá D.C.</td>
+				<td>Tecnologo en Informatica</td>
+			</tr>
+		</table>
+		<h2>Agregar Estudios</h2>
+		<form action="" method="POST">
+			<strong>Año : </strong>
+			<select id="anio" name="anio">
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+			</select>
+			<br>
+			<strong id="institucion">Institución</strong>
+			<input type="text" name="institucion" id="institucion"><br>
+			<strong id="lugar">Lugar</strong>
+			<textarea cols="40" rows="4" name="lugar" id="lugar"></textarea><br>
+			<input type="submit" name="Enviar">
+		</form>
+	</article>
+	<footer>
+		Contenido e imagenes ©  Camilo Antonio Alfonso Martinez. Derechos reservados.
+	</footer>
+
+</body>
+</html>
